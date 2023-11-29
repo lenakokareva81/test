@@ -1,0 +1,81 @@
+.footer {
+    margin-top: 69px;
+
+    &__columns {
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+
+        &:last-child {
+            align-items: flex-end
+        }
+    }
+
+    &__menu {
+        margin-top: 55px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content min-content;
+    }
+
+    &__columnsmenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        color: rgba(101, 101, 102, 1);
+        text-transform: uppercase;
+        margin: 55px auto 10px 0px;
+
+        &-contacts {
+            margin: 55px 0 10px auto;
+        }
+
+        &-menu {
+            grid-column: span 2;
+        }
+
+
+
+    }
+
+    &__link {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+        cursor: pointer;
+        color: rgba(228, 229, 234, 1);
+        margin-top: 10px;
+    }
+
+
+
+    &__conf {
+        width: 239px;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 70px;
+
+        a {
+            color: rgba(228, 229, 234, 1);
+        }
+
+
+    }
+
+
+}

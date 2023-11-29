@@ -1,0 +1,243 @@
+@media (max-width:1200px) {
+    .container {
+        width: 900px;
+    }
+
+    .header__contacts {
+        flex-direction: column-reverse
+    }
+
+    .social__item {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        margin-top: 40px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .container {
+        width: 700px;
+        flex-direction: column;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .gifts__items {
+        display: none;
+    }
+
+    .header__menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        background-color: rgba(14, 16, 20, 1);
+        margin-top: 0;
+        padding-top: 0;
+        min-height: 55px;
+    }
+
+    .header__tabs {
+        text-transform: uppercase;
+        margin: 0 auto;
+        line-height: 55px;
+    }
+
+    .header__tabs {
+        &:last-child {
+            display: none;
+        }
+    }
+
+    .content__title {
+        font-size: 36px;
+        line-height: 44px;
+        width: 220px;
+    }
+
+    .content__highlight {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 44px;
+    }
+
+    .content__subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+
+    .content {
+        .gifts {
+            &__title {
+                text-align: left;
+
+                span {
+                    text-align: left;
+                }
+            }
+
+            &__content {
+                display: none;
+            }
+
+            &__distr {
+                display: none;
+            }
+
+            &__button {
+                display: none;
+            }
+
+            &__items {
+                margin-top: 5px;
+                margin-bottom: 55px;
+            }
+
+            &__item {
+                align-items: flex-start;
+                margin-top: 14px;
+
+            }
+
+            &__mobile {
+                display: block;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                text-transform: uppercase;
+                position: relative;
+                margin-top: 0px;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 10px;
+                    height: 1px;
+                    background: linear-gradient(45deg, rgba(252, 176, 69, 1), rgba(253, 29, 29, 1));
+                    left: -14px;
+                    top: 7px;
+                }
+
+
+
+
+            }
+        }
+    }
+
+    .footer {
+        background-color: black;
+
+        &__columns {
+            padding: 0;
+            margin: 0;
+        }
+
+        &__title {
+            margin-top: 45px;
+        }
+
+        &__menu {
+            margin-top: 0;
+        }
+
+        &___title-menu {
+            margin-top: 30px;
+        }
+
+        &__columns:last-child {
+            align-items: flex-start;
+        }
+
+        &__title-contacts {
+            margin: 25px auto 10px 0;
+        }
+
+        &__conf {
+            margin: 50px auto 10px 0;
+        }
+
+
+    }
+
+    .social__item-footer {
+        margin: 10px 10px 10px 0px
+    }
+
+    .social-footer {
+        margin: 0;
+    }
+
+    .phone-footer {
+        margin: 10px auto 0px 0;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        z-index: 2;
+        background-image:
+            radial-gradient(400px at 60px 400px, rgba(150, 26, 26, 0.2) 30%,
+                rgba(14, 16, 20, 0.05)),
+            radial-gradient(400px at 257px 108px, rgba(131, 58, 180, 0.1) 30%, rgba(14, 16, 20, 0.01)),
+            url('../img/purple_ball_mobile.png'),
+            url('../img/red_ball__mobile.png');
+
+        background-position: 0px 0px,
+            0px 0px,
+            296px 286px,
+            29px 457px;
+
+        background-repeat: no-repeat;
+        background-color: #0E1014;
+    }
+
+    .container {
+        width: 550px;
+    }
+
+    .header__tabs {
+        font-weight: 500;
+        font-size: 12px;
+
+        text-transform: uppercase;
+        color: #E4E5EA;
+    }
+
+    .content__subtitle,
+    .content__incom {
+        width: 286px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 286px;
+
+    }
+}
